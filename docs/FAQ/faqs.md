@@ -14,7 +14,7 @@ We’re currently making rapid changes to the product so our docs may be out of 
 
 ## How do I log in after starting up Forem for the first time?
 
-Seeding the database create an admin user (see
+Seeding the database creates an admin user (see
 [Database](/backend/database/#default-admin-user)) with the following
 credentials:
 
@@ -69,16 +69,16 @@ Once you refresh the app, you should be able to see some comments in the Feed.
 
 ## How do I make someone follow me on my local environment?
 
-In certain cases, for example when testing various functionalities, you may need
-to be able to make some user follow you. Here's how:
+In certain cases, for example, when testing various functionalities, you may need
+to be able to make some users follow you. Here's how:
 
 1. Open the rails console by running `rails c` in your terminal.
-2. Get any user you want to follow you, for example `user = User.first`.
+2. Get any user you want to follow you, for example, `user = User.first`.
 3. Then make this user follow you: `user.follow(your_username)`.
 
 Boom, you have a new follower!
 
-## How do I remove / leave organization I created?
+## How do I remove/leave the organization I created?
 
 1. Open the rails console by running `rails c` in your terminal.
 2. Enter the following commands:
